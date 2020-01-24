@@ -79,7 +79,7 @@ function clearHighlight() {
 
 function sidebarClick(id) {
   var layer = markerClusters.getLayer(id);
-  map.setView([51.531654, -0.156796], 13);, 
+  map.setView([51.531654, -0.156796], 13); 
   layer.fire("click");
   /* Hide sidebar and go to the map on small screens */
   if (document.body.clientWidth <= 767) {
